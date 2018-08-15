@@ -16,6 +16,6 @@ function nameToAttributes(list) {
 
 function attributesToPhrase(list) {
   return list.map(function (driver) {
-    return "${driver.name} is from ${driver.homtown}";
+    return `${driver.name} is from ${driver.homtown}`;
   });
 }
