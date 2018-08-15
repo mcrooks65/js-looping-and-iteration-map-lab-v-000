@@ -13,3 +13,7 @@ function nameToAttributes(list) {
     return { firstName: driverFirst, lastName: driverLast };
   });
 }
+
+function attributesToPhrase(list) {
+  
+}
